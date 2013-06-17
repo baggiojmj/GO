@@ -401,9 +401,9 @@ func main() {
 
 	go crawl(todo_link_chan, page_chan)
 
-	// url := "/movie/django-unchained/"
+	url := "/movie/django-unchained/"
 	//url := "/"
-	url := "/movie/soom/"
+	//url := "/movie/soom/"
 	fetched_link_chan <- url
 	fmt.Println("test")
 	for {
